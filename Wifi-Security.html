@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZE - Posts & Write Ups</title>
+<meta name="title" content="Zack ElMetennani">
+<meta name="keywords" content="Cyber Security, AWS, AWS Development">
+<meta name="description" content="Experienced IT technician with cloud computing and cyber security certifications. Building websites, social media bots, security tools, and other things.">
+<meta name="author" content="Zachary ElMetennani">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/greenboard.jpg" style="width:100%">
+  <a href="https://zackelmet.xyz/" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <h4>ZE</h4>
+  </a>
+  <a href="posts.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-paper-plane w3-xxlarge"></i>
+    <p>POSTS</p>
+  </a>
+  </nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="https://zackelmet.xyz/" class="w3-bar-item w3-button" style="width:25% !important">ZE</a>
+    <a href="posts.html" class="w3-bar-item w3-button" style="width:25% !important">POSTS</a>
+    <a href="resume.html" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+    <a href="index.html#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home"> <!--
+      <h3><span class="w3-hide-small"></span> Posts & Write Ups</h3>
+      
+      <img src="images/B&WBoard.jpg" alt="image" class="w3-image" width="450" height="1108"> -->
+    </header>
+  </div>
+  
+  <!-- Portfolio Section 
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity"> -->
+
+    <!-- Grid for photos
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    </div> -->
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <p><span style="font-weight: 400;">Wifi security is important. From a security perspective it can often be a weak point. Here are some cool penetration testing tools to prod at your local wireless network security.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"></span></p>
+<p><br /><br /></p>
+<p><span style="font-weight: 400;">#1 Using a raspberry pi and external network card</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Raspi&rsquo;s are awesome. We are going to use one, in combination with a wifi card that supports monitor mode and packet injection, to test how much info we can gather once we have network access. The Raspi programming is essentially installing a linux distro on an sd card. In this case a RaspberryPi may even be a bit of overkill, in terms of resources. It would be cool to get these tools on an even smaller form factor like some kind of arduino with a on-board packet injection supported wifi chip -- project for another day.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Today we are using these:</span></p>
+<p>&nbsp;</p>
+<p><img src="raspi.jpg" alt="Raspi" /> <img src="Wifi-Card.jpg" alt="Wifi-Card" /></p>
+<p><span style="font-weight: 400;">Step one is downloading Kali Linux and burning it to an sd card. Here is one good tutorial on how do that &lt;link&gt;. Once installed, shove that card in your RasPi and boot it up.&nbsp; Get into that desktop, connect to wifi, and you are good to go.&nbsp;&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><img src="images/kali.png" alt="Kali" style="height:300px;"></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Once you bask in the glory of your new Kali Linux box you&rsquo;ll want to connect your external wifi card and get it into monitor mode.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Note: You will need an external wifi card that supports packet injection and monitor mode.</span></p>
+<p><a href="https://store.rokland.com/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt?variant=32375704813651&amp;currency=USD&amp;utm_medium=product_sync&amp;utm_source=google&amp;utm_content=sag_organic&amp;utm_campaign=sag_organic&amp;gclid=Cj0KCQjwyOuYBhCGARIsAIdGQRMr_3olJ1ozRsoNcVoYMtphQC-uhq8-f-uz_Ei9NmdMeLqH0EPgY8caApoVEALw_wcB"><span style="font-weight: 400;">This</span></a><span style="font-weight: 400;"> is my favorite one.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Find your wifi card name in iwconfig</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">And set it to monitor mode with these commands:</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Ifconfig wlan1 down</span></p>
+<p><span style="font-weight: 400;">Iwconfig wlan1 mode monitor&nbsp;</span></p>
+<p><span style="font-weight: 400;">Ifconfig wlan1 up</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Turn those commands into a shell script for convenience:</span></p>
+<p>&nbsp;</p>
+<img src="images/monmode_bash_script.png" alt="monmode script" style="height:140px;">
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="brands-grid separator-border separator-border-light mt-5">&nbsp;</div></p>
+
+            <p></p>
+
+  <!-- End Contact Section -->
+  </div>
+  
+    
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
